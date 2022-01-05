@@ -1,3 +1,21 @@
 5 stycznia 2022r
 Rozpoczęcie nauki od nowa po awarii
-
+1. Wiersze poleceń 
+  mkdir - dodanie folderu
+  touch - dodanie pliku
+  rm - usnięcie pliku
+  rm -r  - usunięcie folderu
+  ls -la zawartość w danym folderze
+  cp - kopiowanie pliku
+  git status - sprawdzenie status w danym folerze (stan realizacji plików)
+  git log -sprawdzenie commitów w danym foldrze
+        --oneline: w jednej linii
+	--patch: w całości 
+	--graph: przedstawienie commitów w grafie
+	--author="name": przedstawienie commitów danego autora
+	-- plik.nazwa: przedstawienie comitów dotyczących danego pliku
+  git reset cofnięcie dodania piku
+  git checkout wycofanie zmian w jeszcze nie skomitowanym pliku
+  git checkout testing: wprowadzenie nowej gałęzi (branch) danego repozytorium
+  git checkout master: przeście do gałęzi głównej repozytorium (master)
+  git merge testing: scalenie dwóch gałęzi 
