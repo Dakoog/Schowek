@@ -1,0 +1,44 @@
+
+5 stycznia 2022r - Utworzenie pliku Nauka
+
+  1) Git - wprowadzenie
+  2) Wiersz poleceń
+  3) Systemy kontroli wersji
+  4) Tworzenie repozytorium lokalnego
+  5) Cykl życia plików
+  6) Historia zmian
+  7) Tworzenie repozytorium zdalnego
+  8) Plik .gitignore
+    - w repozytorium często pojawiają sie pliki które
+    są produktem zbędnym wynikłym przy zapisywaniu kolejnych
+    etapów działalności w repozytorium.
+    Aby one nie zaśmiecały nam naszego folderu głównego należy
+    dodać plik .gitignore w którym wpiszemy wszystkie rozszerzenia
+    które powinny być ignorowane w naszym repozytorium.
+    By ignorowane były pliki należy wpisać:
+    *.<rozszerzenie>
+    foldery:
+    <nazwa folderu>/*
+    Uwaga. Zalecane jest wpisanie jako plik ignorowany pliku
+    .gitignore
+  9) Tworzenie odgałęzienia (branch)
+     TO testowania pisanego program i zmian w jego tworzeniu możemy
+     wykorzystać gałąź testing w naszym repozytorium
+     tworzymy ją natępująco
+     git branch testing
+     aby przejść z gałęzi master do testing i z powrotem
+     należy wpisać polecenie
+     git checkout <nazwa gałęzi>.
+  10) Scalania odgałęzień w folderze (merge)
+     Posiadając gałęzie np. master i testing możemy je scalić
+     gdy uznamy że to co uzyskaliśmy na wyodrębnionej gałęzi
+     ćwiczeniowej jest adekwatne i kończące projekt.
+     W tym celu wpisać należy następujące polecenie:
+     git merge testing (na gałęzi master)
+     i zatwierdzić pojawiający się commit
+     następnie możemy usunąć wykorzystaną już do celów testowych
+     gałąź testing.
+     Uwaga: w celu wybrania jednej z wielu gałęzi należy przy wpisaniu
+     git branch -> nacisnąć dwa razy tabulator (tab) i wybrać z podanych
+     przez gita gałęzi.
+
